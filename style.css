@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Julius+Sans+One&family=Monoton&family=Playball&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header {
+    background-image: url('./images/ass.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.mainlogo{
+    color: rgb(43, 43, 43);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.mainlogo a {
+    animation-name: alli;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes alli {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+
+
+
+
+
+.lapan{
+    color: rgb(255, 255, 255);
+    
+    margin-top: 332px;
+    font-size: 48px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 500;
+    padding-left: 15px;
+    animation-name: laap;
+    animation-duration: 2s;
+    
+}
+
+@keyframes laap {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+
+
+.lapansnip {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 18px;
+    padding-top: 5px;
+    
+}
+
+
+
+.lapansnip p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    animation-name: snip;
+    animation-duration: 2s;
+}
+
+
+
+
+
+@keyframes snip{
+    0% {margin-left: 50px;}
+    100% {margin-left: 0px;}
+}
+
+
+
+
+
+.mainlogo a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+
+
+
+.start {
+    background: rgb(238,227,174);
+    background: linear-gradient(90deg, rgb(238, 223, 150) 0%, rgb(226, 172, 204) 100%);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.start p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+}
+
+.start h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(252, 240, 192);
+}
+
+
+.container2 {
+    background-color: wheat;
+    height: 350px;
+    display: flex;
+
+}
+
+
+.content1{
+    background-color: violet;
+    display: flex;
+    height: 500px;
+}
+
+.img{
+    background-image: url('./images/shinozaki.jpg');
+    background-size: cover;
+    background-position-x:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.img h1{
+    background-color: rgb(30, 97, 60);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: center;
+    padding-right: 50px;
+    
+
+}
+
+.snipet{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.snipet2{
+    background-image: url('./images/aichan.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.snipet2 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    opacity: 100%;
+    transition-property: color, opacity ;
+    transition-duration: 1s;
+}
+
+.snipet h2:hover{
+    color: rgb(254, 255, 196);
+    opacity: 60%;
+    
+}
+
+.snipet3 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.snipet3{
+    background-image: url('./images/shinozaki2.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
